@@ -1,2 +1,60 @@
 
 /* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.adoption-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);   /* card-like look */ /* [web:177][web:183] */
+}
+
+.adoption-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.adoption-form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.adoption-form input[type="text"],
+.adoption-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.adoption-form label input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+#adoption-form #multiSelect {
+  min-height: 80px;
+}
+
+/* submit button */
+#adoption-form,
+#adoption-form #submit {}
+
+#submit {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
